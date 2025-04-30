@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+<<<<<<< HEAD
 }
 
 .App-logo {
@@ -15,11 +16,14 @@
 
 .App-header {
   background-color: #282c34;
+=======
+>>>>>>> c8fda272c5e06c07b5bc755b36c5ee47ecd95cee
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -36,3 +40,72 @@
     transform: rotate(360deg);
   }
 }
+=======
+  background-color: #282c34;
+  color: white;
+}
+
+.App-header {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.calendar {
+  margin-bottom: 20px;
+}
+
+.time-slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.time-slot {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #61dafb;
+  color: #282c34;
+  transition: background-color 0.3s ease;
+}
+
+.time-slot.blocked {
+  background-color: #ff6b6b;
+  cursor: not-allowed;
+}
+
+.time-slot:not(.blocked):hover {
+  background-color: #4fa3c4;
+}
+
+.confirmation {
+  margin-top: 20px;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: #282c34;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #4fa3c4;
+}
+>>>>>>> c8fda272c5e06c07b5bc755b36c5ee47ecd95cee
